@@ -12,10 +12,9 @@ Overview
 
 Dataset
 -------------------------------
- * **health_data.csv** : [국가건강검진정보](https://www.data.go.kr/dataset/15007122/fileData.do) 개인 건강검진 결과 데이터 100만 건 중 7만 건 랜덤 추출
- * **cell_img.csv** : 악성/양성종양 세포 MRI 이미지 데이터
- * **hospital_basic_info.csv** : 전국 시도별 병원 위치 정보 데이터
- * **hospital_medical_sub_spec.csv** : 병원 진료 과목 정보 데이터  
+ * **Mall_space_image_data** : 제작한 세트에서 매장 사진을 수집한 데이터
+ * **train_data** : 세트를 1회 주행하면서 수집한 데이터
+ * **test_data** : 세트에서 매장 사진을 2개 변경하고 수집한 데이터
 
 
 Timeline
