@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>show map</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.3/examples/product/product.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      table.type11 {
+        border-collapse: separate;
+        border-spacing: 1px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 20px 10px;
+        margin-top:150px
+      }
+      table.type11 th {
+          width: 155px;
+          padding: 10px;
+          font-weight: bold;
+          vertical-align: center;
+          color: #fff;
+          background: #ce4869 ;
+          font-size: 12px;
+      }
+      table.type11 tbody td.d{
+          width: 25%;
+          padding: 10px;
+          vertical-align: top;
+          border-bottom: 1px solid #ccc;
+          background: #eee;
+          font-size: 12px;
+      }
+      table.type11 tbody td.a{
+          width: 25%;
+          padding: 10px;
+          vertical-align: top;
+          border-bottom: 1px solid #ccc;
+          background: #eee;
+          font-size: 12px;
+      }
+      table.type11 tbody td.b{
+          width: 30%;
+          padding: 10px;
+          vertical-align: top;
+          border-bottom: 1px solid #ccc;
+          background: #eee;
+          font-size: 12px;
+      }
+      #pagination a {
+          display:inline-block;
+          margin-right:5px;
+          cursor:pointer;
+       }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script src="form-validation.js"></script>
+      <script>
+          $(document).ready(function(){
+            $("#starbucks").click(function(){
+                $("#image").css ({
+                   top:520,
+                   left:530
+                });
+                $("#image").show();
+            });
+            $("#vans").click(function(){
+                $("#image").css ({
+                   top:515,
+                   left:635
+                });
+                $("#image").show();
+            });
+            $("#buberry").click(function(){
+                $("#image").css ({
+                   top:465,
+                   left:635
+                });
+                $("#image").show();
+            });
+            $("#gucci").click(function(){
+                $("#image").css ({
+                   top:415,
+                   left:643
+                });
+                $("#image").show();
+            });
+            $("#att").click(function(){
+                $("#image").css ({
+                   top:367,
+                   left:643
+                });
+                $("#image").show();
+            });
+            $("#chanel").click(function(){
+                $("#image").css ({
+                   top:317,
+                   left:645
+                });
+                $("#image").show();
+            });
+            $("#hatson").click(function(){
+                $("#image").css ({
+                   top:272,
+                   left:645
+                });
+                $("#image").show();
+            });
+            $("#guess").click(function(){
+                $("#image").css ({
+                   top:228,
+                   left:645
+                });
+                $("#image").show();
+            });
+            $("#victoriasecret").click(function(){
+                $("#image").css ({
+                   top:172,
+                   left:575
+                });
+                $("#image").show();
+            });
+            $("#thebodyshop").click(function(){
+                $("#image").css ({
+                   top:172,
+                   left:490
+                });
+                $("#image").show();
+            });
+            $("#brooksbrothers").click(function(){
+                $("#image").css ({
+                   top:226,
+                   left:400
+                });
+                $("#image").show();
+            });
+            $("#zara").click(function(){
+                $("#image").css ({
+                   top:275,
+                   left:400
+                });
+                $("#image").show();
+            });
+            $("#vanhart").click(function(){
+                $("#image").css ({
+                   top:320,
+                   left:400
+                });
+                $("#image").show();
+            });
+            $("#starfieldhanam").click(function(){
+                $("#image").css ({
+                   top:320,
+                   left:308
+                });
+                $("#image").show();
+            });
+            $("#lacoste").click(function(){
+                $("#image").css ({
+                   top:275,
+                   left:306
+                });
+                $("#image").show();
+            });
+            $("#hollyscoffee").click(function(){
+                $("#image").css ({
+                   top:226,
+                   left:306
+                });
+                $("#image").show();
+            });
+            $("#converse").click(function(){
+                $("#image").css ({
+                   top:168,
+                   left:280
+                });
+                $("#image").show();
+            });
+            $("#fendi").click(function(){
+                $("#image").css ({
+                   top:165,
+                   left:180
+                });
+                $("#image").show();
+            });
+            $("#hermes").click(function(){
+                $("#image").css ({
+                   top:228,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#hm").click(function(){
+                $("#image").css ({
+                   top:278,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#aldo").click(function(){
+                $("#image").css ({
+                   top:323,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#poloralphlauren").click(function(){
+                $("#image").css ({
+                   top:370,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#clubmonaco").click(function(){
+                $("#image").css ({
+                   top:415,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#kisdom").click(function(){
+                $("#image").css ({
+                   top:465,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#cartier").click(function(){
+                $("#image").css ({
+                   top:515,
+                   left:80
+                });
+                $("#image").show();
+            });
+            $("#chicor").click(function(){
+                $("#image").css ({
+                   top:600,
+                   left:155
+                });
+                $("#image").show();
+            });
+            $("#custommellow").click(function(){
+                $("#image").css ({
+                   top:600,
+                   left:220
+                });
+                $("#image").show();
+            });
+            $("#yankeecandle").click(function(){
+                $("#image").css ({
+                   top:600,
+                   left:285
+                });
+                $("#image").show();
+            });
+            $("#tommyhilfiger").click(function(){
+                $("#image").css ({
+                   top:600,
+                   left:355
+                });
+                $("#image").show();
+            });
+            $("#gs25").click(function(){
+                $("#image").css ({
+                   top:600,
+                   left:440
+                });
+                $("#image").show();
+            });
+
+          });
+
+          function pagination(){
+            var req_num_row=4;
+            var $tr=jQuery('tbody tr');
+            var total_num_row=$tr.length;
+            var num_pages=0;
+            if(total_num_row % req_num_row ==0){
+                num_pages=total_num_row / req_num_row;
+            }
+            if(total_num_row % req_num_row >=1){
+                num_pages=total_num_row / req_num_row;
+                num_pages++;
+                num_pages=Math.floor(num_pages++);
+            }
+
+            jQuery('.pagination').append("<li><a class=\"prev\">Previous</a></li>");
+
+            for(var i=1; i<=num_pages; i++){
+                jQuery('.pagination').append("<li><a>"+i+"</a></li>");
+                jQuery('.pagination li:nth-child(2)').addClass("active");
+                jQuery('.pagination a').addClass("pagination-link");
+            }
+
+            jQuery('.pagination').append("<li><a class=\"next\">Next</a></li>");
+
+            $tr.each(function(i){
+                jQuery(this).hide();
+                if(i+1 <= req_num_row){
+                    $tr.eq(i).show();
+                }
+            });
+
+            jQuery('.pagination a').click('.pagination-link', function(e){
+                e.preventDefault();
+                $tr.hide();
+                var page=jQuery(this).text();
+                var temp=page-1;
+                var start=temp*req_num_row;
+                var current_link = temp;
+
+            jQuery('.pagination li').removeClass("active");
+            jQuery(this).parent().addClass("active");
+
+            for(var i=0; i< req_num_row; i++){
+                $tr.eq(start+i).show();
+            }
+
+            if(temp >= 1){
+                jQuery('.pagination li:first-child').removeClass("disabled");
+            }
+            else {
+                jQuery('.pagination li:first-child').addClass("disabled");
+            }
+            });
+
+            jQuery('.prev').click(function(e){
+                e.preventDefault();
+                jQuery('.pagination li:first-child').removeClass("active");
+            });
+
+            jQuery('.next').click(function(e){
+                e.preventDefault();
+                jQuery('.pagination li:last-child').removeClass("active");
+            });
+        }
+
+        jQuery('document').ready(function(){
+            pagination();
+            jQuery('.pagination li:first-child').addClass("disabled");
+        });
+
+      </script>
+  </head>
+
+  <body class="bg-light">
+      <!--<div class="container">-->
+      <br>
+      <div class="row">
+          <h2 style="margin-left:650px">P1 Mall 매장 안내</h2>
+      </div>
+
+      <div class="row" style="margin-left:400px; margin-top:30px">
+                  <div class="col-md-6 mb-3">
+                     <img src="./static/images/target_update.png" width="700px" height="515px">
+                  </div>
+                  <div class="col-md-6 mb-3" style="position:absolute; display:none" id="image">
+                      <img src="./static/images/arrow2.png" width="50px" height="50px">
+                  </div>
+      </div>
+
+      <div class = "row" style="margin-left:710px">
+          <button id="update" onclick="location.href='http://127.0.0.1:5000/second' ">지도 업데이트</button>
+      </div>
+
+      <div class="row">
+                  <div class="col-md-12 mb-3" style="line-height:1px;">
+                      <div class="table-responsive">
+                          <table class="type11" style="margin-top:50px; margin-left:460px">
+                              <thead>
+                              <tr>
+                                  <th scope="cols">매장 이름</th>
+                                  <th scope="cols">매장 종류</th>
+                                  <th scope="cols">위치 보기</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td class="d">Starbucks</th>
+                                  <td class="a">음료</th>
+                                  <td class="b"><button id="starbucks">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Vans</th>
+                                  <td class="a">신발</th>
+                                  <td class="b"><button id="vans">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Buberry</th>
+                                  <td class="a">의류</th>
+                                  <td class="b"><button id="buberry">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">ALDO</th>
+                                  <td class="a">명품</th>
+                                  <td class="b"><button id="gucci">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">AT&T</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="att">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Chanel</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="chanel">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Hat's On</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="hatson">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Guess</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="guess">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Victoria Secret</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="victoriasecret">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">The Body Shop</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="thebodyshop">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Brooks Brothers</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="brooksbrothers">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Zara</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="zara">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Van Hart</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="vanhart">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Starfield Hanam</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="starfieldhanam">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Lacoste</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="lacoste">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Hollys Coffee</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="hollyscoffee">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Converse</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="converse">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Fendi</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="fendi">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Hermes</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="hermes">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">H&M</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="hm">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">ALDO</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="aldo">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Polo Ralph Lauren</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="poloralphlauren">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Club Monaco</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="clubmonaco">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Kis Dom</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="kisdom">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Cartier</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="cartier">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Chicor</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="chicor">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Custom Mellow</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="custommellow">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Yankee Candle</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="yankeecandle">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">Tommy Hilfiger</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="tommyhilfiger">위치 보기</button>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="d">GS25</th>
+                                  <td class="a"></th>
+                                  <td class="b"><button id="gs25">위치 보기</button>
+                                  </th>
+                              </tr>
+                              </tbody>
+                          </table>
+                          <ul class="pagination" style="margin-left:670px">
+
+                          </ul>
+                      </div>
+                  </div>
+          </div>
+      </div>
+  </body>
+</html>

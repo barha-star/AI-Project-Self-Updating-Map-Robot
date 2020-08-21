@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "StoreName": "Nike",
+        "X": 262,
+        "Y": 285
+      },
+      "id": 285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          262.0,
+          285.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "StoreName": "Adidas",
+        "X": 263,
+        "Y": 255
+      },
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          263.0,
+          255.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "StoreName": "NewBalance",
+        "X": 243,
+        "Y": 235
+      },
+      "id": 235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          243.0,
+          235.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "StoreName": "Puma",
+        "X": 216,
+        "Y": 232
+      },
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          216.0,
+          232.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "StoreName": "Umbro",
+        "X": 190,
+        "Y": 214
+      },
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190.0,
+          214.0
+        ]
+      }
+    }
+  ]
+}
